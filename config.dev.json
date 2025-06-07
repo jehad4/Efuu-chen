@@ -13,16 +13,16 @@
   "checkApproval": true,
   "language": "en",
   "notesLanguage": "change to your language with ISO 639-1 code, available languages: vi (Vietnamese), en (English)",
-  "nickNameBot": "EREN",
-  "prefix": "/",
+  "nickNameBot": "𝑺𝒑𝒊𝒅𝒆𝒚 𝑩𝒂𝒃𝒚 🕷️💕🧸",
+  "prefix": "-",
   "adminOnly": {
     "enable": false,
     "ignoreCommand": []
   },
   "adminBot": [
   
-    "61574046213712",
-    "",
+    "61572797678150",
+    "61576088924774",
     "",
     "",
     "",
@@ -30,8 +30,8 @@
   ],
   "whiteListMode": {
     "enable": false,
-    "whiteListIds": ["61574046213712",
-"",
+    "whiteListIds": ["61572797678150",
+"61576088924774",
       ""
     ],
     "notes": "if you enable this feature, only the ids in the whiteListIds list can use the bot"
