@@ -5,7 +5,7 @@ const baseApiUrl = async () => {
 
 module.exports.config = {
     name: "bby",
-    aliases: ["baby", "bby", "babe"],
+    aliases: ["baby", "bbe", "babe"],
     version: "6.9.0",
     author: "efuu",
     countDown: 0,
@@ -159,9 +159,9 @@ module.exports.onChat = async ({
 }) => {
     try {
         const body = event.body ? event.body?.toLowerCase() : ""
-        if (body.startsWith("Bby") || body.startsWith("Spipuu") || body.startsWith("Bubu") || body.startsWith("spuu") || body.startsWith("Spyuu") || body.startsWith("spbby")) {
+        if (body.startsWith("Bby") || body.startsWith("Spipuu") || body.startsWith("Bubu") || body.startsWith("Spyuu") || body.startsWith("bby") || body.startsWith("Wibby")) {
             const arr = body.replace(/^\S+\s*/, "")
-            const randomReplies = ["Hmm... tomar Spydey chole esheche 🕷️💅", "Daktei hobe, ami toh original web queen 😏🕸️", "Awii 🧸 ki dako meke, Spidey bolcho naki? 😳", "Careful babe, ami bite-o korte pari 😈🕷️"];
+            const randomReplies = ["Awwiee… dako na emon bhalobasha die 🧸💕", "Tumi dako, ar ami ura ashi 🕷️💫", "Hihi, boloo bby 😚🩷", "Beware baby… eibar tor heart e web phelbo 😈🕸️", "Tor daktai amar weakness 😏🕷️", "Abar dakli… amar naam viral kore dimu 😜🔥", "Yesss, the one and only 𝑺𝒑𝒊𝒅𝒆𝒚 𝑩𝒂𝒃𝒚 arrived 🕷️👑", "Ki re? Naam dilei ami ashi? Superstar toh ami! ✨", "bolo🙂"];
             if (!arr) {
 
                 await api.sendMessage(randomReplies[Math.floor(Math.random() * randomReplies.length)], event.threadID, (error, info) => {
