@@ -15,17 +15,17 @@ module.exports = {
 
     onStart: async function ({ message }) {
         const adminInfo = {
-            name: "𝐄𝐟𝐚𝐭",
-            username: "𝕯𝖆𝖗𝖈𝖐 𝖈𝖔𝖑",
+            name: "Joy",
+            username: "NY XV EIL",
             address: "𝐃𝐡𝐚𝐤𝐚",
             age: "𝟏𝟔+",
-            height: "6 ft",
-            weight: "5𝟕 kg",
-            badHabits: "𝐒𝐦𝐨𝐤𝐢𝐧𝐠 🚭",
-            status: "𝐎𝐧𝐞 𝐬𝐢𝐝𝐞 𝐥𝐨𝐯𝐞𝐫",
+            height: "5.8 ft",
+            weight: "52 kg",
+            badHabits: "over thinking ",
+            status: "SINGLE",
             work: "Sᴛᴜᴅʏ",
             religion: "Isʟᴀᴍ",
-            fbLink: "https://m.me/Efuu.chen"
+            fbLink: "https://www.facebook.com/profile.php?id=100087098984822"
         };
 
         const now = moment().tz('Asia/Dhaka').format('MMMM Do YYYY, h:mm:ss A');
